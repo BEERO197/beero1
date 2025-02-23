@@ -1,0 +1,44 @@
+اريد انشاء جدول بواسطة التيرمينال اسمة cart فيه id نوعة int وزيادة اتوماتيكي 
+الحقل الثاني nameنوعة charvar طولة 500
+الحقال الثالثprice  نوعة charvar طولة500
+الرابع img  نوعة charvar طولة 500
+الخامس quatity  نوعة charvar طولة 500
+في نظام لينكس ديبين داحل قاعدة بيانات ماريا ديبي
+
+cp /var/www/html/old_project/config.php /var/www/html/new_project/
+
+
+touch config.php
+
+<?php
+// إعدادات المشروع
+$project_path = '/var/www/html/new_project';
+
+// إعدادات قاعدة البيانات
+$db_host = 'localhost';
+$db_name = 'new_project_db';
+$db_user = 'username';
+$db_pass = 'password';
+?>
+
+_________
+
+chmod 644 /var/www/html/new_project/config.php
+
+
+
+CREATE DATABASE new_project_db;
+
+
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON new_project_db.* TO 'username'@'localhost';
+FLUSH PRIVILEGES;
+
+
+# البحث داخل الملفات عن كلمة "directory" في الدليل القديم
+grep -r "directory" /var/www/html/old_project
+
+اريد انشاء ملف config لتشغيل مشروع على في فيجول بيسك للغة php داخل الدليل var/www/html/cafi ويعطي الاذونات اللازمة للتنفيذ والقراءة والكتاية في المشروع على جعاز كروموبوك
+النوقع لايستقبل صور ولايمكن حذف الصور منة تضهر رسالة premmission denied
+
+

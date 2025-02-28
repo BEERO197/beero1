@@ -52,6 +52,20 @@ grep -r "directory" /var/www/html/old_project
 لا اريد هذة الطريقة ستخرب بىمجة الموقع ان اريد البرامج داخل الموقع هي التي تسمح بالخذف والاضافة
 
 
+Navigation Menu
+Copilot
+
+Copilot Chat
+New conversation
+انا اعمل على جهاز كرومو بوك وابرمج مشروع بلغة php على اباتشي2واسم الدليل الذي فية المشروع هو subermarket وبة الملف الرئيسي index. php ومربوط بقاعدة ببانات ماريا دي بي وقمت بوضع ملف subermarket. conf داخل الدليل etc/apache2/sites-available. والان اريد اضافة مشروع اخر بظليل اسمة cafi داخل انفس المسار /var/www/html وعملت لة ملف cafii. conf.. المشكلة انة عندما افتح الدليل cafi لتشغيلة لايعمل بل يعمل ملف index. php الخاص بالمشروع subermsrket رغم انة مغلق.. ماالسبب
+
+
+
+
+
+
+
+
 مشاوي
 سندوتشات
 بوكسات
